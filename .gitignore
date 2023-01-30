@@ -1,0 +1,16 @@
+﻿# _default.configや_fixed.configを使う場合は必要に応じて除外
+#emuera.config
+
+# 画像はプレイヤー側で用意してねというスタンスの場合
+#resources/
+
+# ただしCSVファイルでスプライトを指定している場合
+#!resources/*.csv
+
+# 以下は除外したほうがいいもの
+*.sav
+*.log
+*.lnk
+sav/
+debug/
+macro.txt
